@@ -73,6 +73,10 @@ textarea:not([rows]) {
 
 /* my styles */
 
+*{
+    font-family:  "Inter", sans-serif;
+}
+
 .color{
     color: hsl(0, 0%, 100%);
     color: hsl(0, 0%, 20%);
@@ -93,7 +97,7 @@ main{
     border-radius: 10px;
     background-color: hsl(0, 0%, 12%);
     width: 300px;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
     color: hsl(0, 0%, 100%);
 
@@ -101,24 +105,25 @@ main{
 
 h3{
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
 
 p{
     font-size: 0.8rem;
-    font-weight: 100;
+    font-weight: 300;
+    color: yellow;
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .frontend-paragraph{
+    color: hsl(0, 0%, 100%);
     margin-top: 8px;
-    margin-bottom: ;
+    margin-bottom: 30px;
+    font-weight: 300;
+    font-size: 0.7rem;
 }
-
-.yellow{
-    color: yellow;
-    font-weight: ;
-}
-
 
 img{
     border-radius: 100px;
@@ -144,9 +149,12 @@ li{
 
 a{
     text-decoration: none;
+    font-size: 0.7rem;
+    font-weight: 600;
 }
 
 li:hover{
     background-color: yellow;
     color: black;
+    font-weight: 600;
 }
